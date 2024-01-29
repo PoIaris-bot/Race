@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<ignition version='1.0'>
+  <executable name='world'>
+    <command>ign gazebo world.sdf</command>
+  </executable>
+
+  <executable name='race'>
+    <command>./build/race</command>
+  </executable>
+</ignition>
